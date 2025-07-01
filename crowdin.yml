@@ -5,7 +5,6 @@ preserve_hierarchy: true
 
 files:
   - source: '/assets/**/en_us.json'
-    translation: '/assets/**/%two_letters_code%_%two_letters_country_code%.json'
-    languages_mapping:
-      json:
-        uk: uk_ua
+    translation: '/assets/**/uk_ua.json'
+    languages:
+      - uk
