@@ -1,1 +1,4 @@
-{}
+{
+    "block.trophymanager.trophy": "Trophy",
+    "trophymanager.tooltip.trophy.scale": "Scale: %s"
+}
