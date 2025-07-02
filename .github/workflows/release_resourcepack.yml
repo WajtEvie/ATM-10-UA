@@ -24,8 +24,8 @@ jobs:
           find assets -type d -name lang | while read langdir; do
             moddir=$(dirname "$langdir")
             relmoddir=${moddir#assets/}
-            mkdir -p "ATM10UA/assets/$relmoddir/lang"
             if [ -f "$langdir/uk_ua.json" ]; then
+              mkdir -p "ATM10UA/assets/$relmoddir/lang"
               cp "$langdir/uk_ua.json" "ATM10UA/assets/$relmoddir/lang/"
             fi
           done
