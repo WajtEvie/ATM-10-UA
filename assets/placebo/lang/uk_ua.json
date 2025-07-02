@@ -1,0 +1,7 @@
+{
+  "placebo.toggleTrails": "Перемкнути Patreon сліди",
+  "placebo.toggleWings": "Перемкнути Patreon крила",
+  "placebo.cmd.serialize_success": "Збережено %s у %s.",
+  "placebo.cmd.serialize_failure": "Сталася помилка у процесі серіалізації.",
+  "placebo.cmd.not_found": "%s не було знайдено."
+}
