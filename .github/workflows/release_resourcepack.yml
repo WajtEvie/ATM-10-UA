@@ -3,7 +3,7 @@ name: Build selective Minecraft Resourcepack
 on:
   push:
     branches:
-      - main_l10n
+      - main
 
 jobs:
   build:
