@@ -20,8 +20,15 @@ jobs:
 
       - name: Prepare ATM10UA directory
         run: |
-          mkdir ATM10UA
-          cp -r assets ATM10UA/
+          mkdir -p ATM10UA/assets
+          find assets -type d -name lang | while read langdir; do
+            moddir=$(dirname "$langdir")
+            relmoddir=${moddir#assets/}
+            mkdir -p "ATM10UA/assets/$relmoddir/lang"
+            if [ -f "$langdir/uk_ua.json" ]; then
+              cp "$langdir/uk_ua.json" "ATM10UA/assets/$relmoddir/lang/"
+            fi
+          done
           cp pack.mcmeta ATM10UA/
           cp pack.png ATM10UA/
 
