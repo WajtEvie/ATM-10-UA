@@ -6,3 +6,14 @@
 *.py
 **/me_rge.json
 **/ru_ru.json
+**/es_es.json
+**/fr_fr.json
+**/it_it.json
+**/ja_jp.json
+**/ko_kr.json
+**/pt_pt.json
+**/ru_ru.json
+**/zh_cn.json
+**/zh_tw.json
+**/de_de.json
+**/pl_pl.json
