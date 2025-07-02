@@ -1,3 +1,8 @@
+*
+
+!assets/
+!assets/**
+
 *.py
 **/me_rge.json
 **/ru_ru.json
