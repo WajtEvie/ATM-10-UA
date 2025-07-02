@@ -331,8 +331,6 @@
   "artifacts.tooltip.item.umbrella.shield": "Може використовуватися як щит",
   "artifacts.tooltip.missing_dependency": "Встановіть Curios, Trinkets або Accessories для використання цього предмета",
   "artifacts.tooltip.per_food_point_restored": "За кожен відновлений пункт їжі:",
-  "artifacts.tooltip.plus_mob_effect": "+%s",
-  "artifacts.tooltip.plus_mob_effect_chance": "+%s (%s%%)",
   "artifacts.tooltip.toggle_keymapping": "Натисніть %s, щоб перемкнути",
   "artifacts.tooltip.tool_tier.diamond": "діамантового",
   "artifacts.tooltip.tool_tier.iron": "залізного",
