@@ -1,0 +1,13 @@
+{
+  "gui.darkmodeeverywhere.dark_mode": "Темний режим",
+  "gui.darkmodeeverywhere.light_mode": "Світлий режим",
+  "gui.darkmodeeverywhere.perfect_dark": "Абсолютна темрява",
+  "gui.darkmodeeverywhere.less_perfect_dark": "Менш темний режим",
+  "gui.darkmodeeverywhere.toasted_light": "Підсмажений світлий режим",
+  "gui.tooltip.darkmodeeverywhere.shader_switch_tooltip": " * Використовуйте Shift, щоб перейти до світлого режиму",
+  "config.darkemodeeverywhere.method_shader_blacklist": "Список рядків клас:метод (методи рендеру), до яких не застосовується темний шейдер.\\nКожен рядок складається з назви класу та методу (або будь-якого підрядка), щоб заблокувати темний шейдер.\\nНаприклад, 'renderHunger' достатньо, щоб заблокувати 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' (обидва варіанти працюють)",
+  "config.darkemodeverywhere.method_shader_dump": "Увімкнення цієї опції кожні 5 секунд буде виводити, які методи використовувалися для рендеру GUI, до яких застосовувався темний шейдер.\\nВивід міститиме список рядків клас:метод, наприклад, 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'.\\nВикористовуйте цю функцію, щоб знайти методи рендеру GUI, які ви хочете додати до чорного списку.",
+  "config.darkemodeeverywhere.button_position_x": "Пікселів від лівого краю GUI по осі X",
+  "config.darkemodeeverywhere.button_position_y": "Пікселів від нижнього краю GUI по осі Y",
+  "config.darkmodeeverywhere.enabled": "Увімкнено"
+}

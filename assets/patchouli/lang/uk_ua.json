@@ -84,5 +84,7 @@
   "patchouli.gui.lexicon.button.visualize.info": "(Клацніть ще раз, щоб очистити)",
   "patchouli.gui.lexicon.button.history": "Історія",
   "patchouli.gui.lexicon.button.mark_all_read": "Позначити все, як прочитане",
-  "patchouli.gui.lexicon.button.mark_category_read": "Позначити категорію, як прочитану"
+  "patchouli.gui.lexicon.button.mark_category_read": "Позначити категорію, як прочитану",
+  "patchouli.networking.open_book.failed": "Не вдалося відкрити книгу %s",
+  "patchouli.networking.reload_contents.failed": "Не вдалося перезавантажити вміст %S"
 }
