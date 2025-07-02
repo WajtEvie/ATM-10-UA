@@ -40,7 +40,11 @@ jobs:
         with:
           tag_name: latest
           name: Ресурс-пак ATM10UA
-          body: Переклад модів, використаних у ATM10 українською.\n\nДля використання потрібно ATM10UA закинути в теку resourcepacks у корені збірки.
+          body: |
+  Переклад модів, використаних у ATM10 українською.
+
+  Для використання потрібно ATM10UA закинути в теку resourcepacks у корені збірки.
+
           files: minecraft_resourcepack.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
