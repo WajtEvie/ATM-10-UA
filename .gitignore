@@ -2,6 +2,9 @@
 
 !assets/
 !assets/**
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
 
 *.py
 **/me_rge.json

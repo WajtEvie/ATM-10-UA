@@ -1,0 +1,46 @@
+name: Build and Release Latest Minecraft Resourcepack
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install zip
+        run: sudo apt-get update && sudo apt-get install zip -y
+
+      - name: Prepare ATM10UA directory
+        run: |
+          mkdir ATM10UA
+          cp -r assets ATM10UA/
+          cp pack.mcmeta ATM10UA/
+          cp pack.png ATM10UA/
+
+      - name: Zip resource pack
+        run: zip -r minecraft_resourcepack.zip ATM10UA
+
+      - name: Delete old release (latest)
+        uses: dev-drprasad/delete-tag-and-release@v1.1
+        with:
+          tag_name: latest
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          name: Ресурс-пак ATM10UA
+          body: Переклад модів, використаних у ATM10 українською.\n\nДля використання потрібно ATM10UA закинути в теку resourcepacks у корені збірки.
+          files: minecraft_resourcepack.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
