@@ -1,0 +1,27 @@
+name: Build selective Minecraft Resourcepack
+
+on:
+  push:
+    branches:
+      - main_l10n
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install zip
+        run: sudo apt-get update && sudo apt-get install zip -y
+
+      - name: Build resourcepack zip (selective files)
+        run: |
+          mkdir -p build
+          zip -r build/minecraft_resourcepack.zip pack.mcmeta pack.png $(find assets -path "*/lang/uk_ua.json")
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: minecraft_resourcepack
+          path: build/minecraft_resourcepack.zip
