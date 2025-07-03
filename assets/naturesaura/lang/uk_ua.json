@@ -1,5 +1,4 @@
 {
-  "item_group.naturesaura.tab": "Nature's Aura",
   "block.naturesaura.ancient_log": "Колода стародавнього дерева",
   "block.naturesaura.ancient_bark": "Кора стародавнього дерева",
   "block.naturesaura.ancient_leaves": "Листя стародавнього дерева",
@@ -184,7 +183,6 @@
   "info.naturesaura.break_prevention": "Жетон Ейра застосовано",
   "info.naturesaura.broken": " (Зламано)",
   "info.naturesaura.pet_reviver": "Ваш улюбленець %s потрапив у біду і був відправлений додому.",
-  "advancement.naturesaura.root": "Nature's Aura",
   "advancement.naturesaura.root.desc": "Становлення магічного ботаніка",
   "advancement.naturesaura.get_book": "Сторінки досліджень",
   "advancement.naturesaura.get_book.desc": "Створіть книгу дослідження аури",
