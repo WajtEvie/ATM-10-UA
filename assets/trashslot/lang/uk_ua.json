@@ -1,7 +1,26 @@
 {
   "trashslot.serverNotInstalled": "На сервері не встановлено TrashSlot. Цей мод буде вимкнено.",
   "key.trashslot.toggle": "Показати/Приховати корзину",
+  "key.trashslot.toggle_lock": "Заблокувати/Розблокувати корзину",
   "key.trashslot.delete": "Видалити предмет",
   "key.trashslot.delete_all": "Видалити всі предмети цього типу",
-  "trashslot.configuration.instantDeletion": "Миттєве видалення"
+  "trashslot.config.instantDeletion": "Миттєве видалення",
+  "trashslot.configuration.instantDeletion": "Миттєве видалення",
+  "trashslot.configuration.instantDeletion.tooltip": "Це змушує слот видалення миттєво знищувати предмети, подібно до режиму творчості.",
+  "trashslot.configuration.enableDeleteKeysInCreative": "Клавіші видалення у творчому режимі",
+  "trashslot.configuration.enableDeleteKeysInCreative.tooltip": "Увімкніть, якщо хочете, щоб клавіші видалення працювали і в творчому режимі. Увага: предмети будуть видалятися назавжди, незалежно від налаштування миттєвого видалення!",
+  "trashslot.configuration.enableHints": "Підказки",
+  "trashslot.configuration.enableHints.tooltip": "TrashSlot покаже підказку вперше, коли корзину буде вимкнено або її можна буде увімкнути на підтримуваному екрані. Вимкніть, щоб не показувати підказки.",
+  "trashslot.configuration.allowDeletionWhileTrashSlotIsInvisible": "Дозволити видалення, коли корзина прихована",
+  "trashslot.configuration.allowDeletionWhileTrashSlotIsInvisible.tooltip": "Не рекомендується, але це дозволить використовувати клавіші видалення навіть якщо корзина прихована.",
+  "trashslot.configuration.deletionDenyList": "Список заборонених до видалення",
+  "trashslot.configuration.deletionDenyList.tooltip": "Список предметів, які не можна видаляти, у форматі \"modid:name\" через кому.",
+  "trashslot.hint.toggleOn": "Натисніть %s, щоб увімкнути корзину для цього екрана!",
+  "trashslot.hint.toggledOff": "Ви вимкнули корзину! Натисніть %s, щоб знову її увімкнути.",
+  "trashslot.hint.deletedWhileHidden": "Предмет видалено!",
+  "trashslot.hint.deletionDenied": "Неможливо видалити предмет!",
+  "trashslot.hint.locked": "Корзину заблоковано. Натисніть %s, щоб розблокувати.",
+  "trashslot.hint.unlocked": "Корзину розблоковано. Натисніть %s, щоб заблокувати.",
+  "tooltip.trashslot.destroy_item": "Знищити предмет",
+  "tooltip.trashslot.trash_item": "Викинути предмет"
 }

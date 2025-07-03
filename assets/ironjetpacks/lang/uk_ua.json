@@ -1,5 +1,4 @@
 {
-  "itemGroup.ironjetpacks": "Iron Jetpacks",
   "item.ironjetpacks.strap": "Шкіряний ремінь",
   "item.ironjetpacks.basic_coil": "Базова котушка",
   "item.ironjetpacks.advanced_coil": "Покращена котушка",
@@ -22,7 +21,6 @@
   "tooltip.ironjetpacks.infinite": "Нескінченність",
   "tooltip.ironjetpacks.engine": "ДВИГУН",
   "tooltip.ironjetpacks.hover": "ЗАВИСАННЯ",
-  "tooltip.ironjetpacks.hud": "HUD",
   "tooltip.ironjetpacks.tier": "РІВЕНЬ %s",
   "tooltip.ironjetpacks.throttle": "Тяга: %s",
   "tooltip.ironjetpacks.fuel_usage": "Витрата пального: %s",
@@ -39,6 +37,5 @@
   "tooltip.ironjetpacks.toggle_hover": "Режим зависання %s",
   "tooltip.ironjetpacks.toggle_hud": "HUD %s",
   "tooltip.ironjetpacks.change_throttle": "Тягу встановлено на %s",
-  "tooltip.ironjetpacks.state_tooltip_layout": "%s | %s | %s | %s",
   "tooltip.ironjetpacks.jetpack_id": "ID реактивного ранця: %s"
 }

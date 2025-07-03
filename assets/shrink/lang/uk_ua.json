@@ -1,0 +1,9 @@
+{
+  "item.mob_bottle.tooltip_empty": "Клацніть ПКМ по зменшеній істоті зі скляною пляшкою, щоб упіймати її",
+  "item.shrink.mob_bottle": "Скляна пляшка",
+  "item.shrink.shrinking_device": "Особистий пристрій зменшення",
+  "itemGroup.shrink": "Shrink",
+  "key.shrink.category": "Shrink",
+  "key.shrink.shrink": "Увімкнути/вимкнути зменшення",
+  "shrink.deny_shrink": "Зменшення істоти заблоковано через deny tag"
+}
