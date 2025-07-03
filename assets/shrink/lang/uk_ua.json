@@ -1,9 +1,9 @@
 {
-  "item.mob_bottle.tooltip_empty": "Right-click on a shrunken entity with a glass bottle to capture",
-  "item.shrink.mob_bottle": "Glass Bottle",
-  "item.shrink.shrinking_device": "Personal Shrinking Device",
+  "item.mob_bottle.tooltip_empty": "Клацніть ПКМ по зменшеній істоті зі скляною пляшкою, щоб упіймати її",
+  "item.shrink.mob_bottle": "Скляна пляшка",
+  "item.shrink.shrinking_device": "Особистий пристрій зменшення",
   "itemGroup.shrink": "Shrink",
   "key.shrink.category": "Shrink",
-  "key.shrink.shrink": "Toggle Shrink",
-  "shrink.deny_shrink": "Blocked shrinking of entity due to deny tag"
+  "key.shrink.shrink": "Увімкнути/вимкнути зменшення",
+  "shrink.deny_shrink": "Зменшення істоти заблоковано через deny tag"
 }
